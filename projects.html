@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="images/logo.png" type="image/png">
+<title>Projects | Ralph</title>
+
+<link rel="stylesheet" href="css/projects.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+<img class="logo-img" src="images/logo.png" alt="Logo">
+</div>
+
+<ul class="nav-links">
+<li><a href="certifications.html">Certifications</a></li>
+<li><a href="index.html">Home</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+
+</nav>
+
+</header>
+
+
+<section class="projects">
+
+<h1 class="section-title">
+My <span class="gradient-text">Projects</span>
+</h1>
+
+<div class="projects-grid">
+
+
+<!-- Project 1 -->
+<div class="project-card">
+
+<img src="images/project1.png" alt="Project Image">
+
+<h3>Game Website</h3>
+
+<p>
+A browser game site with multiple games embedded and optimized
+for smooth gameplay.
+</p>
+
+<div class="project-buttons">
+<a href="https://ralphsunblockedgames.netlify.app" class="btn primary">Live Site</a>
+<a href="https://github.com/rbehar1360-dotcom/Game-site" class="btn secondary">Code</a>
+</div>
+
+</div>
+
+
+<!-- Project 2 -->
+<div class="project-card">
+
+<img src="images/project2.png" alt="Project Image">
+
+<h3>Portfolio Website</h3>
+
+<p>
+My personal developer portfolio built with HTML and CSS
+to showcase my work and projects.
+</p>
+
+<div class="project-buttons">
+<a href="index.html" class="btn primary">Live Site</a>
+<a href="https://github.com/rbehar1360-dotcom/portfolio-site" class="btn secondary">Code</a>
+</div>
+
+</div>
+
+
+<!-- Project 3 (Dropdown Client Work) -->
+<div class="project-card">
+
+<img src="images/project3.png" alt="Project Image">
+
+<h3>Client Websites</h3>
+
+<p>
+Websites I’ve built for fun, for business, or for freelance!
+</p>
+
+<button class="btn primary dropdown-toggle">View Projects</button>
+
+<div class="dropdown-content">
+
+<a href="https://thebestmomintheworld.netlify.app" target="_blank">Mother's day website - Freelance</a>
+<a href="https://ralphspasswordmanager.netlify.app" target="_blank">Password manager - Freelance</a>
+<a href="https://kayleighbadgirl.netlify.app" target="_blank">Fun April Fool's prank for my sister - Fun</a>
+
+</div>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+<footer>
+<p>© 2026 Ralph</p>
+</footer>
+<script>
+document.querySelectorAll(".dropdown-toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const dropdown = btn.nextElementSibling;
+    dropdown.classList.toggle("show");
+  });
+});
+</script>
+</body>
+</html>

@@ -178,11 +178,9 @@ body {
 }
 
 .dropdown-content {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
+    position: static;
     z-index: 50;
+    pointer-events: none;
 
     /* Adaptive Glassmorphism */
     background: rgba(255, 255, 255, 0.08); /* Translucent so background shows through */
@@ -206,6 +204,7 @@ body {
     max-height: 300px;
     padding: 20px 25px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    pointer-events: auto;
 }
 
 .dropdown-content a {

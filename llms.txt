@@ -1,0 +1,33 @@
+# Ralph Behar | Developer Portfolio
+
+> Ralph Behar is a developer. His portfolio presents web development skills, projects, and certifications.
+
+## Skills
+
+- HTML, CSS, JavaScript, TypeScript, React, Node.js, Python
+- GitHub
+
+## Projects
+
+- Game Website: Browser game site with a database and authentication. [Live site](https://ralphsunblockedgames.vercel.app) | [Source repository](https://github.com/rbehar1360-dotcom/Game-site)
+- Portfolio Website: Personal developer portfolio built with HTML and CSS. [Portfolio](https://ralphsportfoliosite.vercel.app/) | [Source repository](https://github.com/rbehar1360-dotcom/portfolio-site)
+- Password Manager: Listed in the portfolio projects. [Live site](https://ralphspasswordmanager.netlify.app)
+- Mother's Day website: Listed as freelance work in the portfolio. [Live site](https://thebestmomintheworld.netlify.app)
+- April Fools' prank website: Personal project listed in the portfolio. [Live site](https://kayleighbadgirl.netlify.app)
+
+## Certifications
+
+- freeCodeCamp Python certification, issued June 29, 2026: https://www.freecodecamp.org/certification/fcc-d3ce1c16-a970-41b8-99dc-49f13a7ca0c9/python-v9
+- freeCodeCamp Responsive Web Design certification, issued April 7, 2026: https://www.freecodecamp.org/certification/fcc-d3ce1c16-a970-41b8-99dc-49f13a7ca0c9/responsive-web-design-v9
+- JavaScript certification is marked "Issued Not Yet" on the portfolio.
+
+## Portfolio pages
+
+- Home: https://ralphsportfoliosite.vercel.app/
+- Projects: https://ralphsportfoliosite.vercel.app/projects.html
+- Certifications: https://ralphsportfoliosite.vercel.app/certifications.html
+- Contact form: https://ralphsportfoliosite.vercel.app/contact.html
+
+## Public profile
+
+- GitHub: https://github.com/rbehar1360-dotcom
